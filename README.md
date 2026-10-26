@@ -61,12 +61,15 @@ free [LibreOffice](https://www.libreoffice.org/download/). Everything else needs
 
 - **Private:** everything happens on your computer; files are never uploaded.
 - **Safe:** originals are never changed — results are new files (`report (1).pdf` if `report.pdf` exists).
+- **Names:** results keep the original name (`report.docx` → `report.pdf`). Click **Rename** on the wheel to
+  pick another, or turn on *Ask for a name each time* in Settings.
 - **Settings** (⚙ on the wheel, or the tray / top-bar icon): handle position, shortcut keys, where files
   are saved, image and video quality, start at login, notifications.
 - **Cancel** stops a long conversion, and you get a notification if you closed the wheel meanwhile.
 
-**Status:** beta. Tested on Windows and Ubuntu 24.04; the macOS build passes automated tests but hasn't
-been tried by hand yet.
+**Status:** version 0.2. Tested by hand on Windows and Ubuntu 24.04; the macOS build passes automated tests
+but hasn't been tried by hand yet. There's no automatic update yet: to update, install the new version over
+the old one (no need to uninstall; settings are kept).
 
 **Problems or ideas?** [Open an issue](https://github.com/Aadiv2104/filewheel-releases/issues).
 
