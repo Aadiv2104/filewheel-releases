@@ -20,16 +20,26 @@ Rest on the centre to switch to **Tools** (compress, resize, rotate, merge PDFs�
 
 ## What it converts
 
-| You have | You can get |
-|---|---|
-| Word, Excel, PowerPoint (doc, docx, xls, xlsx, ppt, pptx, odt, ods, odp, rtf) | PDF |
-| PDF | Word (DOCX), text, PNG/JPG images (one per page) |
-| Images: JPG, PNG, WEBP, GIF, TIFF, AVIF, SVG, BMP, iPhone HEIC | JPG, PNG, WEBP, AVIF, TIFF, GIF, BMP, PDF — or several images into one PDF |
-| Video: MP4, MOV, MKV, AVI, WEBM, WMV and more | MP4, WEBM, MOV, MKV, GIF, MP3, WAV |
-| Audio: MP3, WAV, AAC, M4A, FLAC, OGG, OPUS, WMA | MP3, WAV, M4A, AAC, FLAC, OGG, OPUS |
+| Kind | From | To (any of these except the file's own format) | Tools |
+|---|---|---|---|
+| Word documents | .doc .docx .odt .rtf | PDF | — |
+| Spreadsheets | .xls .ods | PDF | — |
+| Spreadsheets | .xlsx | PDF, CSV | — |
+| Presentations | .ppt .pptx .odp | PDF | — |
+| PDF | .pdf | DOCX, TXT, JPG, PNG | Split pages, Rotate · with 2+ files: Merge |
+| Text documents | .md .markdown .txt .html .htm | PDF, DOCX, HTML | — |
+| Tables and data | .csv .tsv | PDF, CSV, XLSX, JSON | — |
+| Tables and data | .json .yaml .yml | CSV, JSON, YAML | — |
+| Images | .jpg .jpeg .png .webp .tiff .tif .avif .svg .bmp .heic .heif | PDF, JPG, PNG, WEBP, AVIF, TIFF, GIF, BMP | Compress, Resize 50%, Rotate, Grayscale, Remove metadata |
+| Images | .gif | PDF, JPG, PNG, WEBP, AVIF, TIFF, GIF, BMP, MP4, WEBM | Compress, Resize 50%, Rotate, Grayscale, Remove metadata |
+| Video | .mp4 .mov .mkv .avi .webm .wmv .flv .m4v .mpg .mpeg .3gp | GIF, MP4, WEBM, MOV, MKV, MP3, WAV | Compress, Rotate, Mute |
+| Audio | .mp3 .wav .aac .m4a .flac .ogg .opus .wma | MP3, WAV, M4A, AAC, FLAC, OGG, OPUS | Normalize, Trim silence |
 
-**Tools:** compress, resize, rotate and grayscale images, remove photo metadata · merge, split and rotate
-PDFs · compress, mute and rotate videos · normalize loudness and trim silence in audio.
+- **Several images → one combined PDF.** **PDF → JPG/PNG:** one image per page. **Excel → CSV:** one file per sheet.
+- **Markdown, text, HTML and CSV → PDF** need nothing extra. **Word, Excel, PowerPoint → PDF** and **→ DOCX**
+  use Microsoft Office (Windows) or the free [LibreOffice](https://www.libreoffice.org/download/).
+- **Tools** keep the file type and save a new copy, e.g. `photo (compressed).jpg`.
+- Files FileWheel can't convert yet get a clear message on the wheel.
 
 ## Download and install
 
